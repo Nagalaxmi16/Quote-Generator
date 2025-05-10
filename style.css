@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: url('https://www.transparenttextures.com/patterns/brick-wall.png'); 
+    font-family: 'Playfair Display', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#574964; 
+    
+  }  
+  
+  .container {
+    text-align: center;
+    padding: 40px;
+    background: #f1e9e0;
+    border-radius: 16px;
+    box-shadow: 0 4px 10px #382f41;
+    max-width: 650px;
+    width:90%;
+    position: relative;
+    transition: all 0.3s ease;
+   
+  }
+  .container:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 10px 20px #382f41;
+}
+ 
+  .cloud-img {
+    width: 150px;
+    margin-bottom: 10px;
+  }
+  
+  .title {
+    font-family: 'Great Vibes', cursive;
+    font-size: 40px;
+    color: #ae3232;
+    margin-bottom: 20px;
+    margin-top: 0;
+  }
+  
+  .quote-box {
+    margin-top: 10px;
+  }
+  
+  .quote-icon {
+    font-size: 28px;
+    color: #a66c6c;
+  }
+  
+  .quote-text {
+    font-size: 24px;
+    font-style: italic;
+    color: #4a4a4a;
+    margin: 20px 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  button {
+    background-color: #b69797;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }  
+  button:hover {
+    background-color: #4c3f3f;
+  }
+  
